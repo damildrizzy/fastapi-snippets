@@ -1,0 +1,75 @@
+{
+    "FastAPI hello world": {
+        "prefix": "hw",
+        "body": [
+            "from fastapi import FastAPI",
+            "app = FastAPI()",
+            "",
+            "@app.get('/')",
+            "async def root():",
+            "    return {'message': 'Hello World'}"
+        ]
+    },
+    "FastAPI GET path": {
+        "prefix": "path",
+        "body": [
+            "@app.get('/${1:path_name}')",
+            "def ${2:method_name}():",
+            "   pass$0"
+        ]
+    },
+    "async FastAPI GET path": {
+        "prefix": "apath",
+        "body": [
+            "@app.get('/${1:path_name}')",
+            "async def ${2:method_name}():",
+            "   pass$0"
+        ]
+    },
+    "FastAPI POST path": {
+        "prefix": "pathp",
+        "body": [
+            "@app.post('/${1:path_name}')",
+            "def ${2:method_name}():",
+            "   pass$0"
+        ]
+    },
+    "async FastAPI POST path": {
+        "prefix": "apathp",
+        "body": [
+            "@app.post('/${1:path_name}')",
+            "async def ${2:method_name}():",
+            "   pass$0"
+        ]
+    },
+    "SqlAlchemy Database": {
+        "prefix": "sqldb",
+        "body": [
+            "from sqlalchemy import create_engine",
+            "from sqlalchemy.ext.declarative import declarative_base",
+            "from sqlalchemy.orm import sessionmaker",
+            "",
+            "SQLALCHEMY_DATABASE_URL = '${1:db_url}'",
+            "",
+            "engine = create_engine(SQLALCHEMY_DATABASE_URL)",
+            "",
+            "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)",
+            "",
+            "Base = declarative_base()"
+        ]
+    },
+    "SQLAlchemy Dependency": {
+        "prefix": "get_db",
+        "body": [
+            "def get_db():",
+                "db = SessionLocal()",
+                "try:",
+                    "yield db",
+                "finally:",
+                    "db.close()"
+    
+    
+
+        ]
+    }
+}

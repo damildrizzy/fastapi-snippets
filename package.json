@@ -1,0 +1,20 @@
+{
+    "name": "fastapi-snippets",
+    "displayName": "fastapi-snippets",
+    "description": "FastAPI snippets. Inspired by Flask Snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
