@@ -67,9 +67,14 @@
                     "yield db",
                 "finally:",
                     "db.close()"
-    
-    
-
+        ]
+    },
+    "Startup Event": {
+        "prefix": "stup",
+        "body": [
+            "@app.on_event('startup')",
+            "async def on_startup():",
+            "   pass$0"
         ]
     }
 }
