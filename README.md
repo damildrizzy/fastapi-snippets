@@ -1,6 +1,6 @@
 # fastapi-snippets README
 
-FastAPI snippets for Visual Studio Code. Inspired by flask-snippets [flask-snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.flask-snippets).
+FastAPI snippets for Visual Studio Code. Inspired by [flask-snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.flask-snippets).
 
 ## Features
 
@@ -19,6 +19,7 @@ FastAPI snippets for Visual Studio Code. Inspired by flask-snippets [flask-snipp
 | shdn         | Shutdown Event             |
 
 ## Release Notes
+See [changelog][CHANGELOG.md] for releases
 
 
 
