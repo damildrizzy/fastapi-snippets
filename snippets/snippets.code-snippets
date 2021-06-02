@@ -59,7 +59,7 @@
         ]
     },
     "SQLAlchemy Dependency": {
-        "prefix": "get_db",
+        "prefix": "getdb",
         "body": [
             "def get_db():",
             "   db = SessionLocal()",
