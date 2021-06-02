@@ -42,7 +42,7 @@
             "   pass$0"
         ]
     },
-    "SqlAlchemy Database": {
+    "SQLAlchemy Database": {
         "prefix": "sqldb",
         "body": [
             "from sqlalchemy import create_engine",
@@ -58,7 +58,7 @@
             "Base = declarative_base()"
         ]
     },
-    "SQLAlchemy Dependency": {
+    "SessionLocal Dependency": {
         "prefix": "getdb",
         "body": [
             "def get_db():",
