@@ -2,7 +2,7 @@
     "name": "fastapi-snippets",
     "displayName": "fastapi-snippets",
     "description": "FastAPI snippets for VsCode. Inspired by Flask Snippets",
-    "publisher": "Samuel Adekoya",
+    "publisher": "damildrizzy",
     "icon": "images/fastapi.png",
     "version": "0.0.1",
     "engines": {
