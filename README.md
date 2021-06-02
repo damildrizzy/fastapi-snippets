@@ -18,6 +18,10 @@ FastAPI snippets for Visual Studio Code. Inspired by [flask-snippets](https://ma
 | stup         | Startup Event              |
 | shdn         | Shutdown Event             |
 
+
+## Contributing
+Feel free to [submit a pull request on github][https://github.com/damildrizzy/fastapi-snippets]
+
 ## Release Notes
 See [changelog][CHANGELOG.md] for releases
 
