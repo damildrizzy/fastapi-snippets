@@ -4,7 +4,7 @@
     "description": "FastAPI snippets for VsCode. Inspired by Flask Snippets",
     "publisher": "damildrizzy",
     "icon": "images/fastapi.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.56.0"
     },
