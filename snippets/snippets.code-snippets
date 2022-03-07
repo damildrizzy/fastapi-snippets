@@ -15,7 +15,7 @@
         "body": [
             "@app.get('/${1:path_name}')",
             "def ${2:method_name}():",
-            "   pass$0"
+            "    pass$0"
         ]
     },
     "async FastAPI GET path": {
@@ -23,7 +23,7 @@
         "body": [
             "@app.get('/${1:path_name}')",
             "async def ${2:method_name}():",
-            "   pass$0"
+            "    pass$0"
         ]
     },
     "FastAPI POST path": {
@@ -31,7 +31,7 @@
         "body": [
             "@app.post('/${1:path_name}')",
             "def ${2:method_name}():",
-            "   pass$0"
+            "    pass$0"
         ]
     },
     "async FastAPI POST path": {
@@ -39,7 +39,7 @@
         "body": [
             "@app.post('/${1:path_name}')",
             "async def ${2:method_name}():",
-            "   pass$0"
+            "    pass$0"
         ]
     },
     "SQLAlchemy Database": {
@@ -74,7 +74,7 @@
         "body": [
             "@app.on_event('startup')",
             "async def on_startup():",
-            "   pass$0"
+            "    pass$0"
         ]
     },
     "Shutdown Event":{
@@ -82,7 +82,7 @@
         "body": [
             "@app.on_event('shutdown')",
             "async def on_shutdown():",
-            "   pass$0"
+            "    pass$0"
         ]
     }
 }
