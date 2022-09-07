@@ -42,6 +42,24 @@
             "    pass$0"
         ]
     },
+    "async FastAPI GET with Pydantic schemas": {
+        "prefix": "apathpyd",
+        "body": [
+            "from fastapi import Request",
+            "from pydantic import BaseModel",
+            "",
+            "class ExampleResponseSchema(BaseModel):",
+            "    response_field: str",
+            "",
+            "class ExamplePayloadSchema(BaseModel):",
+            "    example_field: str",
+            "",
+            "@app.get(path='/path_name', response_model=ExampleResponseSchema)",
+            "async def method_name(payload: ExamplePayloadSchema) -> Any:",
+            "    payload_field = payload.example_field",
+            "    return payload_field.upper()",
+        ]
+    },
     "SQLAlchemy Database": {
         "prefix": "sqldb",
         "body": [
